@@ -33,6 +33,7 @@ document.addEventListener('click',function(event) {
     //演算子を連続で打てないよう制御
     let result =display.innerText.slice(-1);
     if((event.target.matches('.ope'))&& ( result == '.ope')) {
-        display.innerText = beforeClickNumber;
+        let doubleClick = display.innerText.replace(result,clickNumber);
+        display.innerText = doubleClick;
     }
 }); 
