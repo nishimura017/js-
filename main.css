@@ -2,48 +2,42 @@ html {
     padding-top: 30px;
 }
 
-
 body {
-    box-sizing: border-box;
-    display: block;
-    max-width: 350px;
-    height: 500px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 30px 25px;
-    border: 2px solid;
-    align-items: center;
+  box-sizing: border-box;
+  display: block;
+  max-width: 350px;
+  height: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px 25px;
+  border: 2px solid;
+  align-items: center;
     
 }
 .display {
-    box-sizing: border-box;
-    width: 90%;
-    height: 3.5rem;
-    margin-bottom:15px ;
-    border: solid;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    font-size: large;
-
-
-    
+  box-sizing: border-box;
+  width: 90%;
+  height: 3.5rem;
+  margin-bottom:15px ;
+  border: solid;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-size: large;  
 }
 
 .buttons {
-    display: inline;
-    width: 80%;
-    height: 85%;
-    align-items: center;
-    margin:0;
-   
-
-
+	display: inline;
+	width: 80%;
+	height: 85%;
+	align-items: center;
+	margin:0;
 }
+
 button {
-    display: block;
-    width: 70px;
-    height: 70px;
-    font-size: large
+  display: block;
+  width: 70px;
+  height: 70px;
+  font-size: large
 }
 
